@@ -1,4 +1,5 @@
 # sudo pip install git+git://github.com/chrisb2/pi_ina219.git
+# https://pypi.org/project/pi-ina219/
 
 from ina219 import INA219, DeviceRangeError
 from time import sleep
