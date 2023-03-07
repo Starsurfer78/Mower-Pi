@@ -8,7 +8,7 @@ class KalmanFilter:
         self.p = p0
 
     def update(self, measurement):
-        # Vorhersage-Phase
+        # Forecast-Phase
         x_pred = self.x
         p_pred = self.p + self.q
 
